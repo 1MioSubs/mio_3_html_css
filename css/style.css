@@ -99,7 +99,7 @@ body {
 }
 
 .menu__list-link {
-  color: #FFF;
+  color: #fff;
   margin: 0 2px 2px;
   font-family: Roboto Condensed;
   font-size: 24px;
@@ -146,4 +146,52 @@ body {
 
 .header__icon {
   margin-bottom: 100px;
+}
+
+.about__inner {
+  background-color: #fff;
+  padding: 190px 0 200px;
+}
+
+.title {
+  padding-bottom: 100px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: #01353e;
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  position: relative;
+}
+
+.title::after {
+  content: "/";
+  color: #00b2a0;
+  font-family: Raleway;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  position: absolute;
+  top: 0;
+}
+
+.about__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__content-inner {
+  max-width: 480px;
+  margin-right: auto;
+}
+
+.about__content-text {
+  min-height: 90px;
+  margin-bottom: 30px;
 }
