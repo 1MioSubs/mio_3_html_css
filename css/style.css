@@ -70,6 +70,34 @@ body {
   margin: 0 auto;
 }
 
+.title {
+  padding-bottom: 100px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: #01353e;
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  position: relative;
+}
+
+.title::after {
+  content: "/";
+  color: #00b2a0;
+  font-family: Raleway;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  position: absolute;
+  top: 0;
+}
+
 .header {
   background-image: url(../images/fon.jpg);
   background-repeat: no-repeat;
@@ -151,34 +179,6 @@ body {
 .about__inner {
   background-color: #fff;
   padding: 190px 0 200px;
-}
-
-.title {
-  padding-bottom: 100px;
-  margin: 0 auto;
-  text-align: center;
-  text-transform: uppercase;
-  color: #01353e;
-  font-family: "Raleway", sans-serif;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 0.6px;
-  position: relative;
-}
-
-.title::after {
-  content: "/";
-  color: #00b2a0;
-  font-family: Raleway;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 0.6px;
-  position: absolute;
-  top: 0;
 }
 
 .about__content {
