@@ -248,6 +248,10 @@ body {
 }
 
 .exp__info-item span {
+  margin-left: 10px;
+}
+
+.exp__info-item span {
   color: #242121;
   font-size: 24px;
   font-weight: 400;
@@ -263,4 +267,26 @@ body {
 
 .exp__info-img {
   float: left;
+}
+
+.magic {
+  background-color: #fff;
+  background-image: url('../images/serf-wave.jpg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: top right;
+}
+
+.magic__inner {
+  max-width: 515px;
+  margin-right: auto;
+  padding: 200px 0 320px;
+}
+
+/* .magic__title {
+  margin-bottom: 100px;
+} */
+
+.magic__text p {
+  margin-bottom: 30px;
 }
