@@ -280,7 +280,8 @@ body {
 .magic__inner {
   max-width: 515px;
   margin-right: auto;
-  padding: 200px 0 320px;
+  padding: 200px 0 200px;
+  margin-bottom: 150px;
 }
 
 /* .magic__title {
