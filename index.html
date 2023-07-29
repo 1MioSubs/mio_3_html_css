@@ -12,6 +12,10 @@
       rel="stylesheet"
     />
     <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -239,6 +243,14 @@
       </div>
     </section>
 
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind("[data-fancybox]", {
+        // Custom options
+      });
+    </script>
     <script src="js/main.js"></script>
   </body>
 </html>
