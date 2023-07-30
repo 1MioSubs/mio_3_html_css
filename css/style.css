@@ -629,3 +629,50 @@ ul.pricing__item {
   margin-left: 5px;
   top: 8px;
 }
+
+.map {
+  padding: 200px 0;
+}
+
+.map-image {
+  margin: 0 auto;
+}
+
+.form {
+  padding: 0 0 200px;
+}
+
+.form__title {
+  margin-bottom: 150px;
+}
+
+.form__link-block {
+  padding: 200px 0 0 0 ;
+}
+
+.form__link-items {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #242121;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; 
+  letter-spacing: 0.6px;
+}
+
+.form__link-items li:hover {
+  color: #00B2A0;
+}
+
+.form__link-items li + li {
+  margin-left: 10px;
+}
+
+.footer {
+  background-color: #00B2A0;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+}
