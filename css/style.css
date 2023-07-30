@@ -449,7 +449,7 @@ body {
 
 .slider {
   background-image: url("../images/slider-bg.jpg");
-  min-height: 800px; 
+  min-height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -502,7 +502,6 @@ body {
   margin: 0 0 0 auto;
 }
 
-
 .slick-dots {
   display: flex;
   justify-content: center;
@@ -524,4 +523,39 @@ body {
   font-size: 0;
   padding: 0;
   border: none;
+}
+
+.team {
+  padding: 100px 0 200px;
+}
+
+.team__title {
+  margin-bottom: 100px;
+}
+
+.team__items {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.team__name {
+  color: #242121;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 100% */
+  letter-spacing: 0.6px;
+  margin: 25px 0 1px;
+}
+
+.team__position {
+  color: #242121;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: 0.6px;
 }
