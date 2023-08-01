@@ -772,6 +772,10 @@ ul.pricing__item {
     padding: 100px 0;
     text-align: center;
   }
+  .team__items,
+  .pricing__items {
+    column-gap: 20px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -947,6 +951,14 @@ ul.pricing__item {
     padding: 10px;
     margin: 0 auto;
   }
+  .map {
+    padding: 50px 10px;
+  }
+  .footer {
+    margin: 0;
+    padding: 50px 10px;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -1005,6 +1017,15 @@ ul.pricing__item {
   }
   .portfolio__menu-btn {
     font-size: 18px;
+  }
+  .team__items {
+    display: block;
+  }
+  .team__item {
+    margin-bottom: 25px;
+  }
+  .team__item img {
+    margin: 0 auto;
   }
 }
 
