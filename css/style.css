@@ -889,6 +889,33 @@ ul.pricing__item {
   .magic__inner {
     padding: 50px 10px;
   }
+  .portfolio-title {
+    margin: 0;
+  }
+  .portfolio__menu {
+    text-align: center;
+  }
+  .portfolio__galeri-items img {
+    padding: 5px;
+  }
+  .portfolio__show-more {
+    margin-bottom: 50px;
+  }
+  .portfolio__text {
+    padding: 50px 10px;
+    margin: 0;
+  }
+  .portfolio__test-span {
+    padding: 10px;
+    text-align: center;
+  }
+  .portfolio__video {
+    height: 300px;
+    margin-bottom: 50px;
+  }
+  .portfolio__num {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -907,6 +934,20 @@ ul.pricing__item {
   .header__subtitle {
     font-size: 28px;
     line-height: 36px;
+  }
+  .portfolio__add {
+    font-size: 18px;
+    padding: 20px 50px;
+  }
+  .blockquote {
+    font-size: 30px;
+  }
+  .portfolio__num {
+    flex-wrap: wrap;
+  }
+  .portfolio__num-item {
+    width: 50%;
+    margin-bottom: 40px;
   }
 }
 
@@ -930,6 +971,9 @@ ul.pricing__item {
   .about__inner,
   .exp__inner {
     padding: 50px 10px;
+  }
+  .portfolio__menu-btn {
+    font-size: 18px;
   }
 }
 
@@ -957,6 +1001,9 @@ ul.pricing__item {
     width: 200px;
   }
   .exp__info-text {
+    width: 100%;
+  }
+  .portfolio__num-item {
     width: 100%;
   }
 }
