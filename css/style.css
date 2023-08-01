@@ -117,6 +117,9 @@ body {
 .logo {
   margin-right: 195px;
 }
+.mune__btn {
+  display: none;
+}
 
 .menu__list {
   display: flex;
@@ -747,10 +750,108 @@ ul.pricing__item {
   margin-top: 200px;
 }
 
+@media (max-width: 1600px) {
+}
 
-@media (max-width: 1200px) {}
-@media (max-width: 1000px) {}
-@media (max-width: 768px) {}
-@media (max-width: 640px) {}
-@media (max-width: 440px) {}
-@media (max-width: 340px) {}
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1000px) {
+  .menu__list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    background-color: #000;
+    display: block;
+    text-align: center;
+    transform: translateY(-200%);
+    transition: all 0.5s;
+  }
+  ul.menu__list {
+    padding: 90px 0 15px;
+  }
+  ul li.menu__list-item {
+    margin: 0;
+  }
+  .menu__list-item + .menu__list-item {
+    margin-left: 0;
+  }
+  .menu__list-link {
+    display: block;
+    padding: 15px 0;
+    color: #fff;
+    margin: 0;
+  }
+  .logo {
+    position: relative;
+    z-index: 2;
+  }
+  .header__top-inner {
+    padding-top: 5px;
+    justify-content: space-between;
+  }
+  .menu__list-item {
+    margin-bottom: 30px;
+  }
+  .mune__btn {
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-top: 30px;
+    position: relative;
+    z-index: 3;
+  }
+  .header__top-inner path {
+    fill: #fff;
+  }
+  .header__top-inner rect {
+    fill: #fff;
+  }
+  .header__top-inner.header__top-inner--active .menu__list {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .header__title {
+    font-size: 160px;
+    line-height: 110px;
+    margin-bottom: 30px;
+  }
+  .header__subtitle {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header__title {
+    font-size: 115px;
+    line-height: 80px;
+    margin-bottom: 30px;
+  }
+  .header__subtitle {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 440px) {
+  .header__title {
+    font-size: 90px;
+    line-height: 60px;
+    margin-bottom: 15px;
+  }
+  .header__subtitle {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 340px) {
+}
