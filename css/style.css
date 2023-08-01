@@ -916,6 +916,37 @@ ul.pricing__item {
   .portfolio__num {
     margin-bottom: 50px;
   }
+  .title__inner {
+    margin: 0;
+  }
+  .slider__item {
+    margin-bottom: 100px;
+  }
+  .slider {
+    min-height: 400px;
+    margin-bottom: 50px;
+  }
+  .slider__inner {
+    padding-top: 50px;
+  }
+  .slider__item-title {
+    font-size: 34px;
+  }
+  .slider__item {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .slider__item-title {
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 30px;
+  }
+  .slider__item-text {
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 768px) {
