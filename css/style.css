@@ -750,6 +750,8 @@ ul.pricing__item {
   margin-top: 200px;
 }
 
+
+
 @media (max-width: 1600px) {
 }
 
@@ -893,7 +895,8 @@ ul.pricing__item {
   .magic__inner {
     padding: 50px 10px;
   }
-  .portfolio-title {
+  .portfolio-title,
+  .pricing__title {
     margin: 0;
   }
   .portfolio__menu {
@@ -951,6 +954,12 @@ ul.pricing__item {
     padding: 10px;
     margin: 0 auto;
   }
+  .team {
+    padding: 0 10px 50px;
+  }
+  .team__title {
+    margin: 0;
+  }
   .map {
     padding: 50px 10px;
   }
@@ -958,7 +967,15 @@ ul.pricing__item {
     margin: 0;
     padding: 50px 10px;
   }
-
+  .pricing__items {
+    display: block;
+  }
+  ul.pricing__item {
+    margin: 0 auto 10px;
+  }
+  .pricing {
+    padding: 50px 10px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1056,6 +1073,9 @@ ul.pricing__item {
     width: 100%;
   }
   .portfolio__num-item {
+    width: 100%;
+  }
+  ul.pricing__item {
     width: 100%;
   }
 }
