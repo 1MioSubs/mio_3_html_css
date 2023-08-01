@@ -277,7 +277,7 @@ body {
   background-image: url("../images/serf-wave.jpg");
   background-repeat: no-repeat;
   background-size: 50%;
-  background-position: top right;
+  background-position: center right;
 }
 
 .magic__inner {
@@ -763,6 +763,15 @@ ul.pricing__item {
   .exp__comtent-item {
     max-width: 300px;
   }
+  .magic {
+    background-image: none;
+  }
+  .magic__inner {
+    max-width: 100%;
+    margin: 0;
+    padding: 100px 0;
+    text-align: center;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -834,6 +843,7 @@ ul.pricing__item {
   }
   .about__content {
     display: block;
+    text-align: center;
   }
   .about__content-inner {
     max-width: 100%;
@@ -875,6 +885,9 @@ ul.pricing__item {
     width: 350px;
     margin: 0 auto;
     text-align: center;
+  }
+  .magic__inner {
+    padding: 50px 10px;
   }
 }
 
