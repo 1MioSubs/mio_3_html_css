@@ -746,3 +746,11 @@ ul.pricing__item {
   justify-content: center;
   margin-top: 200px;
 }
+
+
+@media (max-width: 1200px) {}
+@media (max-width: 1000px) {}
+@media (max-width: 768px) {}
+@media (max-width: 640px) {}
+@media (max-width: 440px) {}
+@media (max-width: 340px) {}
