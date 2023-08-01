@@ -685,7 +685,7 @@ ul.pricing__item {
   border-bottom: 2px solid #dadada;
   display: block;
   width: 100%;
-  padding: 0 0 16px;
+  padding: 10px 0 16px;
   margin-bottom: 34px;
   font-style: normal;
   font-weight: 400;
@@ -716,6 +716,7 @@ ul.pricing__item {
   padding: 25px 110px;
   border: 1px solid #c4c4c4;
   margin-top: 40px;
+  cursor: pointer;
 }
 
 .form__add {
